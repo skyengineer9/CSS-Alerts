@@ -1,0 +1,100 @@
+/* Universal styling for all alert divs */
+div {
+  margin-bottom: 15px;    /* Space between alert boxes */
+  width: 600px;           /* Fixed width of alert box */
+  height: 50px;           /* Fixed height for uniform look */
+  display: flex;          /* Flexbox for horizontal alignment */
+  align-items: center;    /* Centers content vertically */
+  padding: 3px 16px;      /* Padding around text */
+  border-radius: 10px;    /* Rounded corners */
+}
+
+/* Universal paragraph styling for inline spacing in messages */
+p.p-universal {
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+/* Background color and border settings for each alert type */
+div.success {
+  background-color: rgb(205, 252, 199);   /* Light green background */
+  border: 1px solid rgb(30, 255, 0);      /* Green border */
+}
+
+div.info {
+  background-color: rgb(187, 241, 255);   /* Light blue background */
+  border: 1px solid rgb(0, 217, 255);     /* Blue border */
+}
+
+div.warning {
+  background-color: rgb(250, 250, 186);   /* Yellow background */
+  border: 1px solid rgb(255, 255, 0);     /* Yellow border */
+}
+
+div.danger {
+  background-color: rgb(253, 208, 201);   /* Light red background */
+  border: 1px solid rgb(255, 60, 0);      /* Red border */
+}
+
+/* Additional alert types with distinct styles */
+div.primary {
+  background-color: rgb(200, 253, 253);
+  border: 1px solid rgb(0, 217, 255);
+}
+
+div.secondary {
+  background-color: rgb(231, 231, 231);
+  border: 1px solid rgb(187, 187, 187);
+}
+
+div.dark {
+  background-color: rgb(211, 211, 211);
+  border: 1px solid rgb(114, 114, 114);
+}
+
+div.light {
+  background-color: rgb(247, 247, 247);
+  border: 1px solid rgb(230, 230, 230);
+}
+
+/* Text color settings for bold labels within alerts */
+.strong-success { color: rgb(9, 80, 0); }
+.strong-info { color: rgb(0, 93, 109); }
+.strong-warning { color: rgb(99, 99, 0); }
+.strong-danger { color: rgb(94, 19, 0); }
+.strong-primary { color: rgb(0, 51, 99); }
+.strong-secondary { color: rgb(27, 27, 27); }
+.strong-dark { color: rgb(59, 59, 59); }
+.strong-light { color: rgb(73, 73, 73); }
+
+/* Underlined, clickable text with pointer cursor */
+.underlined-success {
+  color: rgb(9, 80, 0);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* Repeat similar styling for other alert types */
+.underlined-info {
+  color: rgb(0, 93, 109);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.underlined-warning {
+  color: rgb(99, 99, 0);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.underlined-danger {
+  color: rgb(94, 19, 0);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* Underlined styles for additional alert types */
+.underlined-primary { color: rgb(0, 51, 99); text-decoration: underline; cursor: pointer; }
+.underlined-secondary { color: rgb(27, 27, 27); text-decoration: underline; cursor: pointer; }
+.underlined-dark { color: rgb(59, 59, 59); text-decoration: underline; cursor: pointer; }
+.underlined-light { color: rgb(73, 73, 73); text-decoration: underline; cursor: pointer; }
